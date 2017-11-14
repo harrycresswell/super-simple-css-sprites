@@ -1,0 +1,23 @@
+{
+  "name": "super-simple-css-sprites",
+  "description": "A super simple retina css sprite maker built with Gulp and Spritesmith to automate your sprite workflow",
+  "version": "1.0.0",
+  "author": {
+    "name": "Harry Cresswell",
+    "email": "studio@harrycresswell.com",
+    "url": "https://harrycresswell.com/"
+  },
+  "license": [
+    "ISC"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "~3.5.4"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "sprite",
+    "gulp",
+    "retina"
+  ],
+}
