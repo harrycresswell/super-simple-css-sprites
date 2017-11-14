@@ -14,8 +14,8 @@ The following steps will help you get up and running with a simple sprite automa
 ### Setup
 
 ```
-git clone https://github.com/harrycresswell/sscs.git
-cd sscs
+git clone https://github.com/harrycresswell/super-simple-css-sprites.git
+cd super-simple-css-sprites
 ```
 
 - Run `npm install` to install the node dependencies.
