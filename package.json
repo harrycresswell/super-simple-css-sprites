@@ -1,23 +1,35 @@
 {
   "name": "super-simple-css-sprites",
-  "description": "A super simple retina css sprite maker built with Gulp and Spritesmith to automate your sprite workflow",
-  "version": "1.0.0",
-  "author": {
-    "name": "Harry Cresswell",
-    "email": "studio@harrycresswell.com",
-    "url": "https://harrycresswell.com/"
-  },
-  "license": [
-    "ISC"
-  ],
+  "version": "1.1.0",
+  "description": "A super simple retina css sprite maker built with spritesmith",
+  "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp.spritesmith": "~3.5.4"
+    "gulp.spritesmith": "^6.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "merge-stream": "^1.0.1",
+    "vinyl-buffer": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrycresswell/super-simple-css-sprites.git"
+  },
   "keywords": [
-    "sprite",
-    "gulp",
-    "retina"
+    "retina",
+    "sprites",
+    "css",
+    "spritesmith"
   ],
+  "author": "Harry Cresswell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrycresswell/super-simple-css-sprites/issues"
+  },
+  "homepage": "https://github.com/harrycresswell/super-simple-css-sprites#readme"
 }
